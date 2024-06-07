@@ -1,0 +1,655 @@
+body {
+  background-color: #0a101e;
+}
+/*CSS for the Homepage*/
+header {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 100px auto;
+}
+.Logo {
+  margin: 0%;
+  padding: 0%;
+  background-image: url("./MyLogo.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Logo:hover {
+  cursor: pointer;
+}
+nav {
+  padding-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 90px;
+}
+nav > a {
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: #a9adb8;
+}
+nav > a:hover {
+  color: goldenrod;
+}
+.nav1 {
+  display: none;
+}
+.Hero { 
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: auto auto;
+}
+.PicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  background-image: url("./hero-img.webp ");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 410px;
+  height: 150px;
+  margin: 0%;
+  margin-bottom: 50px;
+  padding: 0%;
+  background-color: black;
+  filter: opacity(0.8);
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fdfeff;
+}
+.Banner > h2 {
+  font-size: 35px;
+  margin: 0%;
+}
+.Banner > p {
+  color: #a9adb8;
+  font-family: "Baskervville";
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 0%;
+}
+.Banner > p:hover {
+  cursor: pointer;
+  color: #fec544;
+}
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.TextContainer > h5 {
+  color: #fec544;
+  font-family: "Brittany";
+  font-size: 100px;
+  margin: 0%;
+  padding: 0%;
+}
+.TextContainer > p {
+  color: #a9adb8;
+  font-family: "Montserrat";
+  font-size: 20px;
+  margin: 0%;
+  margin-left: 132px;
+  padding: 0%;
+}
+.TextContainer > h1 {
+  color: #fdfeff;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 60px;
+  margin: 0%;
+  padding: 0%;
+}
+.About {
+  display: grid;
+  grid-template-rows: 200px 500px;
+  grid-template-columns: auto;
+}
+.Heading {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #fec544;
+}
+.Heading > h4 {
+  margin: 0%;
+  padding: 0%;
+}
+.Heading > h4:hover {
+  cursor: pointer;
+  color: #fdfeff;
+}
+.HeadingDiv {
+  display: flex;
+  justify-content: center;
+  background-color: #fdfeff;
+  filter: opacity(0.6);
+  width: 135px;
+  height: 5px;
+  border-radius: 5px;
+}
+.HeadingDiv:hover {
+  cursor: pointer;
+  filter: opacity(1);
+}
+.HeadingDiv > div {
+  background-color: #fec544;
+  width: 50px;
+  height: 5px;
+  border-radius: 5px;
+}
+.Description {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: auto auto;
+}
+.ProfileImg {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("./hero-img.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ProfileImg2 {
+  display: none;
+}
+.ProfileDescription {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ProfileDescription > h2 {
+  color: #fdfeff;
+  font-family: "Baskervville";
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0%;
+  margin-top: 20px;
+  padding: 0%;
+}
+.ProfileDescription > h4 {
+  color: #fec544;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 25px;
+  margin: 0%;
+  padding: 0%;
+}
+.ProfileDescription > p {
+  color: #fdfeff;
+  font-family: "Baskervville";
+  font-size: 20px;
+  margin: 0%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 0%;
+}
+.Box {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  gap: 12px;
+}
+.Box > h5 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 0%;
+  margin-top: 8px;
+  padding: 0%;
+}
+.Box > p {
+  color: #fdfeff;
+  font-family: "Baskervville";
+  font-weight: lighter;
+  margin: 0%;
+  margin-top: 5px;
+  padding: 0%;
+}
+.Contact {
+  display: grid;
+  grid-template-rows: 200px 400px;
+  grid-template-columns: auto;
+}
+.Heading2 {
+  font-size: 20px;
+}
+.ContactInfo {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ContactInfo > h4 {
+  color: #fec544;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 25px;
+  margin: 0%;
+  margin-bottom: 22px;
+  padding: 0%;
+}
+.ContactInfo > p {
+  color: #a9adb8;
+  font-family: "Baskervville";
+  font-size: 20px;
+  margin: 0%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0%;
+}
+.ContactInfo > h5 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 1.1rem;
+  margin: 0%;
+  margin-bottom: 12px;
+  padding: 0%;
+}
+.socials {
+  background-color: #0a101e;
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+.socials > i:hover {
+  cursor: pointer;
+}
+.Work {
+  display: grid;
+  grid-template-rows: 100px 400px;
+  grid-template-columns: auto;
+}
+.Workinfo {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.ProjectDescription {
+  display: grid;
+  grid-template-rows: 250px auto;
+  grid-template-columns: auto;
+  background-color: #0a101e;
+}
+.ProjectInfo > a {
+  text-decoration: none;
+  color: goldenrod;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0%;
+}
+.ProjectInfo > p {
+  color: #a9adb8;
+  font-family: "Baskervville";
+  font-size: 1.1rem;
+  margin: 0%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0%;
+}
+.ProjectImg {
+  background-image: url("./AmazonHomepageProject.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ProjectImg2 {
+  background-image: url("./LoginPageProject.png");
+}
+/*CSS for Resume Page*/
+.TextContainer1 { 
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.TextContainer1 > p {
+  color: #a9adb8;
+  font-family: "Baskervville";
+  margin-left: 6px;
+  margin-bottom: 16px;
+}
+.TextContainer1 > p:hover {
+  cursor: pointer;
+  color: #fec544;
+}
+.TextContainer1 > h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.TextContainer1 > h5 {
+  color: #fdfeff;
+  font-family: "Montserrat";
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.TextContainer1 i {
+  margin: 0%;
+  padding: 0%;
+  margin-right: 8px;
+}
+.PicContainer1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  background-image: none;
+}
+.PicContainer2  {
+   display: none;
+}
+.ProfilePic {
+  border-radius: 50%;
+  margin: 0%;
+  padding: 0%;
+  width: 300px;
+  height: 300px;
+  background-image: url("./hero-img.webp ");
+  background-size: contain;
+}
+.Characteristics {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  width: auto;
+  height: 120px;
+  font-family: "Brittany";
+  font-size: 2rem;
+  color: #a9adb8;
+}
+.Characteristics p:hover {
+  cursor: grab;
+  color: #fec544;
+}
+.Education { 
+  margin: 0%;
+  padding: 0%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.Education > h2 {
+  color: #fdfeff;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0%;
+}
+.Education > h4 {
+  color: goldenrod;
+  font-family: "Baskervville";
+  font-size: 1.2rem;
+  margin: 0%;
+}
+.Education > p {
+  font-family: "Montserrat ";
+  font-size: 1.1rem;
+  color: #a9adb8;
+  margin-bottom: 25px;
+}
+.Education a {
+  text-decoration: none;
+  color: goldenrod;
+}
+.Heading4 {
+  align-items: flex-start;
+  padding-left: 53px;
+}
+.About1 {
+  display: grid;
+  grid-template-rows: 100px 200px;
+  grid-template-columns: auto;
+}
+.Skill {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 50px;
+  display: flex;
+}
+.Skilllist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #0a101e;
+  width: 230px;
+  height: 200px;
+  margin: 0%;
+  padding: 0%;
+}
+.Skilllist button {
+  background-color: #a9adb8;
+  color: black;
+  width: 95px;
+  height: 60px;
+  font-family: "Baskervville";
+  margin: 0%;
+  padding: 0%;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 0px whitesmoke;
+  border: none;
+}
+.Skilllist p {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*CSS for the Homepage*/
+@media (max-width: 1023px) {
+  nav {
+    display: none;
+  }
+  .nav1 {
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0%;
+    padding: 0%;
+    color: #fdfeff;
+  }
+  .nav1 i:hover {
+    cursor: pointer;
+    color: goldenrod;
+  }
+  .Hero {
+    grid-template-columns: auto;
+  }
+  .TextContainer {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+  .TextContainer > p {
+    margin-left: 0%;
+  }
+  .PicContainer {
+    display: none;
+  }
+  .Banner {
+    display: none;
+  }
+  .ProfileImg {
+    display: none;
+  }
+  .About {
+    grid-template-rows: 200px 1000px;
+  }
+  .Description {
+    grid-template-rows: 500px 500px;
+    grid-template-columns: auto;
+  }
+  .ProfileImg2 {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+  }
+  .ProfileImg2 > img {
+    width: 500px;
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 50px;
+  }
+  .Work {
+    grid-template-rows: 100px auto;
+  }
+  .Workinfo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Heading {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
+  /*CSS for the Resume*/
+  .Hero1 {
+    grid-template-rows: 330px 200px;
+    grid-template-columns: auto;
+  }
+  .PicContainer2 {
+    display: flex;
+    align-items: center; 
+    margin: 0%;
+    padding: 0%;
+    padding-left: 25px;
+  }
+  .About1 {
+    grid-template-rows: 150px 200px;
+  }
+}
+ 
+@media (max-width: 671px) {
+  /*CSS for the Homepage*/ 
+  nav {
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  nav > a {
+    display: none;
+  }
+  .nav1 {
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0%;
+    padding: 0%;
+    color: #fdfeff;
+  }
+  .nav1 i:hover {
+    cursor: pointer;
+    color: goldenrod;
+  }
+  .Hero {
+    grid-template-columns: auto;
+  }
+  .TextContainer {
+    align-items: flex-start;
+    padding-left: 0%;
+  }
+  .TextContainer > p {
+    margin-left: 0%;
+  }
+  .PicContainer {
+    display: none;
+  }
+  .Banner {
+    display: none;
+  }
+  .ProfileImg {
+    display: none;
+  }
+  .About {
+    grid-template-rows: 200px 1000px;
+  }
+  .Description {
+    grid-template-rows: 500px 500px;
+    grid-template-columns: auto;
+  }
+  .ProfileImg2 {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+  }
+  .ProfileImg2 > img {
+    width: 500px;
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 0%;
+  }
+  .ProfileDescription {
+    padding-left: 0%;
+  }
+  .ContactInfo {
+    padding-left: 0%;
+  }
+  .Work {
+    grid-template-rows: 100px auto;
+  }
+  .Workinfo {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0%;
+  }
+  .Heading {
+    align-items: flex-start;
+    padding-left: 0%;
+  }
+
+  /*CSS for the Resume*/
+  .TextContainer1 { 
+    padding-left: 10px; 
+  }
+  .PicContainer2  { 
+    padding-left: 0%;
+ }
+  .About1 {
+    grid-template-rows: 130px 200px;
+  }
+  .Heading4 { 
+    padding-left: 10px;
+  }
+  .Education { 
+    padding-left: 10px; 
+  }
+  .Skill { 
+    padding-left: 10px; 
+  }
+}
